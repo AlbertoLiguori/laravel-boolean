@@ -77,3 +77,18 @@ nav ul li{
   line-height: 35px;
   margin-left: 50px;
 }
+
+/* FIRST-SECTION */
+
+section{
+  margin-top:50px;
+}
+
+.first-section-left{
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.first-section-right img{
+  width:100%;
+}
