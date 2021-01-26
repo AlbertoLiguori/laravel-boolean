@@ -3,7 +3,8 @@
 
 @section('main-title')
 
-Programma il tuo futuro. Entra in Boolean.
+Programma il tuo futuro. <br>
+Entra in Boolean.
 
 @endsection
 

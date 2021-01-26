@@ -20,3 +20,9 @@
   img/jumbo-corso-gratuito.jpg
 
 @endsection
+
+@section('button')
+
+  <button type="button" name="button">Inizia il corso gratuito</button>
+
+@endsection

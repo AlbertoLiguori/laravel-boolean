@@ -51,8 +51,19 @@ flex:4;
   clear:both;
 }
 
+h1{
+  font-family: 'Khula', sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
 
-/* section-container -row */
+h3{
+  font-family: 'Khula', sans-serif;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+
+
 /* NAV */
 
 nav{
@@ -92,3 +103,5 @@ section{
 .first-section-right img{
   width:100%;
 }
+
+/* section-container-row */
