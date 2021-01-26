@@ -3,22 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    @yield('content')
+    <nav>
 
-    <ul>
+          <div class="container">
 
-    @foreach(config('header.routes') as $route)
+                <div class="row d-flex">
 
-            <li> <a href="{{ route($route['pathId']) }}"> {{ $route['displayText'] }} </a> </li> 
+                      <div class="left-nav">
 
-    @endforeach
+                            <img src="img/logo.png" alt="">
 
+                      </div>
 
+                      <div class="right-nav">
 
-    </ul>
+                              <ul class="d-flex">
+
+                                    @foreach(config('header.routes') as $route)
+
+                                      <li> <a href="{{ route($route['pathId']) }}"> {{ $route['displayText'] }} </a> </li>
+
+                                    @endforeach
+
+                              </ul>
+
+                      </div>
+
+                </div>
+
+          </div>
+
+    </nav>
 
 
   </body>
