@@ -2,20 +2,32 @@
 
 @section('section-2')
 
-  <ul class="cds-container container">
+<section class="section-utenti">
 
-    @foreach ($allData as $utente)
+          <div class="container">
 
-        <li class="cd">
-              <img src=" {{ $utente['image'] }} " alt="">
-              <h5>{{ $utente['first_name'] }} </h5>
-              <h5>{{ $utente['last_name'] }} </h5>
+                <div class="row">
 
-              <h6 class="author"> {{ $utente['email'] }} </h6>
-              <span class="year"> {{ $utente['gender'] }} </span>
-        </li>
+                <ul class="d-flex">
 
-    @endforeach
+                  @foreach ($allData as $utente)
 
-  </ul>
+                      <li class="utente d-flex">
+                            <img class="user-img" src=" {{ $utente['image'] }} " alt="">
+                            <h5>{{ $utente['first_name'] }} </h5>
+                            <h5>{{ $utente['last_name'] }} </h5>
+
+                            <h6 class="author"> {{ $utente['email'] }} </h6>
+                            <span class="year"> {{ $utente['gender'] }} </span>
+                      </li>
+
+                  @endforeach
+
+                </ul>
+
+                </div>
+
+          </div>
+  </section>
+
 @endsection

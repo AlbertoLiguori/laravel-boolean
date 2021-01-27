@@ -10,6 +10,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dischi.css">
+    <link rel="stylesheet" href="css/utenti.css">
   </head>
   <body>
 
