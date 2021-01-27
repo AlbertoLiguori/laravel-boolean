@@ -32,3 +32,8 @@ Route::get('/campGratuito', function () {
 Route::get('/candidatiOra', function () {
     return view('candidatiOra');
 })->name('candidatiOra');
+
+
+Route::get('/dischi','DischiController@index')->name('dischi');
+
+Route::get('/utenti','UtentiController@index')->name('utenti');

@@ -31,3 +31,6 @@
           </div>
 
 </section>
+
+@section('section-2')
+@show
