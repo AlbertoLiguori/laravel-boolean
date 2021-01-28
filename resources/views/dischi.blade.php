@@ -12,6 +12,7 @@
                         <h3>{{ $disco['title'] }} </h3>
                         <span class="author"> {{ $disco['author'] }} </span>
                         <span class="year"> {{ $disco['year'] }} </span>
+                        <a href="/dischi/{{$disco['id']}}">vedi dettaglio</a>
                   </li>
 
             @endforeach

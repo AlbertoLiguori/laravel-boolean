@@ -19,6 +19,7 @@
 
                             <h6 class="author"> {{ $utente['email'] }} </h6>
                             <span class="year"> {{ $utente['gender'] }} </span>
+                            <a href="/utenti/{{$utente['id']}}">vedi dettaglio</a>
                       </li>
 
                   @endforeach

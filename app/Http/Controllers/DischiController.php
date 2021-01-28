@@ -16,4 +16,12 @@ class DischiController extends Controller
       return view('dischi', compact('allData'));
 
     }
+
+    public function show($id){
+
+      $disco = Disco::find($id);
+
+      return view('disco', compact('disco'));
+    }
+
 }

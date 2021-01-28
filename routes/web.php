@@ -36,4 +36,8 @@ Route::get('/candidatiOra', function () {
 
 Route::get('/dischi','DischiController@index')->name('dischi');
 
+Route::get('/dischi/{id}', 'DischiController@show')->name('dischi.show');
+
 Route::get('/utenti','UtentiController@index')->name('utenti');
+
+Route::get('/utenti/{id}', 'UtentiController@show')->name('utenti.show');
